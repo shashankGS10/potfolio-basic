@@ -1,14 +1,14 @@
 import React from "react";
-
+import { FaLaptopCode } from "react-icons/fa";
 const ExperienceCard = ({ logo, title, company, description, duration, details, skills }) => {
   return (
     <div className="border p-4 rounded-lg shadow-md mb-6">
       <div className="flex flex-col md:flex-row items-center mb-4">
-        <img
+        {logo ?<img
           src={logo}
           alt={`${company} logo`}
           className="w-16 h-16 mr-4 mb-4 md:mb-0"
-        />
+        />: <FaLaptopCode  className="w-16 h-16 mr-4 mb-4 md:mb-0" />}
         <div className="flex-1">
           <h3 className="text-xl font-bold">{title}</h3>
           <p className="text-blue-300">{company}</p>

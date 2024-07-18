@@ -3,7 +3,7 @@ import ExperienceCard from "./ExperienceCard";
 
 const experiences = [
   {
-    logo: "/assets/kampao_logo.png",
+    logo: "/assets/techLogo/kampao_logo.png",
     title: "Tech Co-founder",
     company: "Kampao.in",
     description: "KamPao.in, an Indian digital platform, connects semi-skilled and unskilled workers in sectors like construction and manufacturing to employers, creating a unified and accessible job market nationwide backed by IIM Bangalore and T-Hub Hyderabad.",
@@ -19,7 +19,7 @@ const experiences = [
     skills: ["NodeJS", "React Native", "ReactJS", "NextJS"]
   },
   {
-    logo: "/assets/acs_solutions_logo.png",
+    logo: "",
     title: "Mobile App Developer",
     company: "ACS Solutions",
     description: "ACS, a leading provider of marketing and customer engagement solutions for the gaming industry, located globally. They focus on empowering casino marketing teams to boost player acquisition and omni-channel engagement currently serving Casinos in USA.",
@@ -37,7 +37,7 @@ const experiences = [
     skills: ["React Native", "ReactJS", "AWS", "NextJS", "Javascript", "Mobile UX", "User Research", "Mobile UI"]
   },
   {
-    logo: "/assets/kuvera_logo.png",
+    logo: "/assets/techLogo/kuvera.png",
     title: "Senior Software Developer",
     company: "Kuvera.in",
     description: "Kuvera, based in India, is an investment community committed to offering services like fund selection, goal planning, and tax optimization in a transparent, user-centric manner for an optimized financial future.",
@@ -52,7 +52,7 @@ const experiences = [
     skills: ["ReactJS", "VueJS", "Javascript", "Web App UI", "Web App UX", "Mobile UX", "Interaction Design", "Mobile UI"]
   },
   {
-    logo: "/assets/networth_corp_logo.png",
+    logo: "/assets/techLogo/ntwc.jpeg",
     title: "Software Engineer",
     company: "Networth Corp",
     description: "Networth Corp, a global firm based in the US, seeks to empower businesses through intelligent solutions, information integration, and innovation for maximizing true value and driving business success.",
@@ -66,7 +66,7 @@ const experiences = [
     skills: ["D3.JS", "NodeJS", "ReactJS", "Visual Design", "Javascript", "Web App UI", "Web App UX", "Product Design"]
   },
   {
-    logo: "/assets/bramhansh_technologies_logo.png",
+    logo: "/assets/techLogo/bhm.png",
     title: "SDE",
     company: "Bramhansh Technologies",
     description: "Bramhansh, a pioneering company in India's MedTech industry, is transforming migraine treatment with their device 'Migraelief'. Their vision is a drug-free migraine solution targeting occipital and trigeminal nerves.",

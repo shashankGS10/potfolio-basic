@@ -14,7 +14,7 @@ const AboutMe = () => {
      <div className='flex min-h-screen flex-col md:flex-row justify-center items-center gap-4'> 
      <div className=''>
           <img src='/assets/coderBoy.png'
-          className="animated-image h-max p-4 w-max md:w-1/2"
+          className="animated-image h-max p-4 max-w-full md:w-1/2"
           alt="Coder Boy"/>
         </div>
       <div className={`standard-textColor justify-center items-center rounded-lg bg-white shadow-lg p-4 w-full md:w-1/2`}>
